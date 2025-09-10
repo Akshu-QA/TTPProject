@@ -19,7 +19,7 @@ public class CheckBox extends BasePage {
 	@FindBy(xpath = "//li[@id=\"bs_1\"]/span[1]")
 	WebElement mainLevelPlus1;
 
-	@FindBy(xpath = "//li[@id='bf_1']/span[1]")
+	@FindBy(xpath = "//li[@id='bf_1']/span[11]")
 	WebElement subLevelPlus1;
 
 	public void clickCheckBoxLink() {
