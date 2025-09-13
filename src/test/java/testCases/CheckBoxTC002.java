@@ -13,5 +13,6 @@ public class CheckBoxTC002 extends BaseClass{
 		cb.clickCheckBoxLink();
 		cb.cBoxClick();
 		cb.plusBtnClick();
+		
 	}
 }

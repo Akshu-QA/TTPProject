@@ -23,7 +23,7 @@ public class TextBox extends BasePage {
 	WebElement enterCurrentAdress;
 
 	@FindBy(xpath = "//input[@id='password']")
-	WebElement enterPassword;
+	WebElement password;
 	
 	@FindBy(css= ".btn.btn-primary")
 	WebElement submitBtn;
@@ -38,6 +38,10 @@ public class TextBox extends BasePage {
 
 	public void enterEmail(String email) {
 		emailField.sendKeys(email);
+	}
+	
+	public void enterPW(String pw) {
+		password.sendKeys(pw);
 	}
 	
 	public void clickSubmit() {

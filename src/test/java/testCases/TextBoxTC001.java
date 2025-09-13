@@ -14,6 +14,7 @@ public class TextBoxTC001 extends BaseClass {
 		tb.clickTextBoxLink();
 		tb.enterFullName("test");
 		tb.enterEmail("test@gmail.com");
+		tb.enterPW("123456");
 		tb.clickSubmit();
 	}
 }
