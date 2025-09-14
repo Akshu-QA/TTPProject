@@ -29,6 +29,7 @@ public class WebTable extends BasePage {
 
 	public void enterRefFormDetail() {
 		fullName.sendKeys("test");
+		
 	}
 
 }
