@@ -50,7 +50,7 @@ public class WebTable extends BasePage {
 		lastName.sendKeys("pawar");
 		email.sendKeys("abc@gmail.com");
 		age.sendKeys("12345");
-		salary.sendKeys("1000000");
+		salary.sendKeys("10000005465465465465156156454bsdhggascgfxcacsxgfc ");
 		deparment.sendKeys("QA");
 	}
 
