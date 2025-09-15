@@ -18,5 +18,10 @@ public class Buttons extends BasePage {
 	
 	@FindBy(css=".btn.btn-secondary")
 	WebElement rightClickMeBtn;
+	
+	public void btnClickMethod() {
+		buttons.click();
+		clickMeBtn.click();
+	}	
 
 }

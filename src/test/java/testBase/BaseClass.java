@@ -1,6 +1,7 @@
 package testBase;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -18,43 +19,46 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class BaseClass {
-	
+
 	public Logger logger;
 	public static WebDriver driver;
 	public Properties p;
-	
+
 	@BeforeClass
 	public void setup() throws IOException {
 		logger = LogManager.getLogger(this.getClass());
-		FileReader file = new FileReader("C:\\Users\\akshu\\eclipse-workspace\\Project WorkSpaces\\TTPautomation\\src\\test\\resources\\config.properties");
-		p=new Properties();
+		// FileReader file = new FileReader(".\\eclipse-workspace\\Project
+		// WorkSpaces\\TTPautomation\\src\\test\\resources\\config.properties");
+		FileInputStream file = new FileInputStream(
+				System.getProperty("user.dir") + "/src/test/resources/config.properties");
+		p = new Properties();
 		p.load(file);
-		
-		driver= new ChromeDriver();
+
+		driver = new ChromeDriver();
 		driver.get(p.getProperty("appURL"));
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
 	}
-	
+
 	@AfterClass
 	public void teardown() {
-		//driver.quit();
+		// driver.quit();
 	}
-	
+
 	public String captureScreen(String tname) {
-		
-		String timeStamp= new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		
+
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+
 		TakesScreenshot takeScreenShot = (TakesScreenshot) driver;
 		File sourceFile = takeScreenShot.getScreenshotAs(OutputType.FILE);
-		
+
 		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
 		File targetFile = new File(targetFilePath);
 
 		sourceFile.renameTo(targetFile);
-		
+
 		return targetFilePath;
-		
+
 	}
 
 }

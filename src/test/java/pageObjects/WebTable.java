@@ -19,6 +19,24 @@ public class WebTable extends BasePage {
 	@FindBy(xpath = "//input[@id='firstname']")
 	WebElement fullName;
 
+	@FindBy(id = "lastname")
+	WebElement lastName;
+
+	@FindBy(id = "email")
+	WebElement email;
+
+	@FindBy(id = "age")
+	WebElement age;
+
+	@FindBy(id = "salary")
+	WebElement salary;
+
+	@FindBy(id = "deparment")
+	WebElement deparment;
+
+	@FindBy(css = "input[value='Login']")
+	WebElement loginBtn;
+
 	public void clickWebtable() {
 		webTable.click();
 	}
@@ -28,7 +46,16 @@ public class WebTable extends BasePage {
 	}
 
 	public void enterRefFormDetail() {
-		fullName.sendKeys("test");
+		fullName.sendKeys("akshu");
+		lastName.sendKeys("pawar");
+		email.sendKeys("abc@gmail.com");
+		age.sendKeys("12345");
+		salary.sendKeys("1000000");
+		deparment.sendKeys("QA");
+	}
+
+	public void clickLoginBtn() {
+		loginBtn.click();
 	}
 
 }

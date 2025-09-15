@@ -9,9 +9,8 @@ public class RadioBtnTC003 extends BaseClass{
 	
 	@Test
 	public void radioBtnMethod() {
-		RadioButton rb = new RadioButton(driver) ;
-		
-		rb.radioBtnClick();		
+		RadioButton rb = new RadioButton(driver) ;		
+		rb.radioBtnClick();	
 		}
 	}
 
