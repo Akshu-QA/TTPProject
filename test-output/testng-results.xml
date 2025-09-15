@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-15T14:20:26 IST" name="Default suite" finished-at="2025-09-15T14:20:32 IST" duration-ms="6158">
+  <suite started-at="2025-09-15T14:31:48 IST" name="Default suite" finished-at="2025-09-15T14:31:53 IST" duration-ms="4275">
     <groups>
     </groups>
-    <test started-at="2025-09-15T14:20:26 IST" name="Default test" finished-at="2025-09-15T14:20:32 IST" duration-ms="6158">
+    <test started-at="2025-09-15T14:31:48 IST" name="Default test" finished-at="2025-09-15T14:31:53 IST" duration-ms="4275">
       <class name="testCases.WebTableTC004">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.WebTableTC004@5a85c92]" started-at="2025-09-15T14:20:26 IST" name="setup" finished-at="2025-09-15T14:20:32 IST" duration-ms="5428" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.WebTableTC004@32811494]" started-at="2025-09-15T14:31:48 IST" name="setup" finished-at="2025-09-15T14:31:51 IST" duration-ms="2839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="webTableMethod()[pri:0, instance:testCases.WebTableTC004@5a85c92]" started-at="2025-09-15T14:20:32 IST" name="webTableMethod" finished-at="2025-09-15T14:20:32 IST" duration-ms="674" status="PASS">
+        <test-method signature="webTableMethod()[pri:0, instance:testCases.WebTableTC004@32811494]" started-at="2025-09-15T14:31:51 IST" name="webTableMethod" finished-at="2025-09-15T14:31:52 IST" duration-ms="1184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webTableMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.WebTableTC004@5a85c92]" started-at="2025-09-15T14:20:32 IST" name="teardown" finished-at="2025-09-15T14:20:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.WebTableTC004@32811494]" started-at="2025-09-15T14:31:52 IST" name="teardown" finished-at="2025-09-15T14:31:53 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

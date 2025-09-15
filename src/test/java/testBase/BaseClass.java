@@ -42,7 +42,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void teardown() {
-		// driver.quit();
+		driver.quit();
 	}
 
 	public String captureScreen(String tname) {
@@ -59,6 +59,10 @@ public class BaseClass {
 
 		return targetFilePath;
 
+	}
+
+	public void implicitlyWaitMethod(int t) {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(t));
 	}
 
 }
