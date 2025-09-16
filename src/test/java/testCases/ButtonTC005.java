@@ -1,6 +1,5 @@
 package testCases;
 
-
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -18,8 +17,7 @@ import testBase.BaseClass;
 
 public class ButtonTC005 extends BaseClass {
 
-	@Test
-
+	@Test(priority = 6)
 	public void buttonsClick() {
 		implicitlyWaitMethod(5);
 		Buttons cb = new Buttons(driver);

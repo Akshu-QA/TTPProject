@@ -8,7 +8,7 @@ import testBase.BaseClass;
 
 public class RadioBtnTC003 extends BaseClass {
 
-	@Test
+	@Test(priority = 3)
 	public void aradioBtnMethod() {
 		RadioButton rb = new RadioButton(driver);
 		rb.clickRadioBtnLink();
@@ -17,7 +17,7 @@ public class RadioBtnTC003 extends BaseClass {
 		Assert.assertEquals(msg, "You have checked Yes");
 	}
 
-	@Test
+	@Test(priority = 4)
 	public void impressiveMethod() throws InterruptedException {
 		implicitlyWaitMethod(5);
 		RadioButton rb = new RadioButton(driver);

@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class BrokenLinksTC007 extends BaseClass {
 
-	@Test
+	@Test(priority = 8)
 	public void brokenLinksMethod() {
 		BrokenLinks bl = new BrokenLinks(driver);
 		bl.brokenLinkMethod();

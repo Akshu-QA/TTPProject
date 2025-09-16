@@ -11,7 +11,7 @@ import testBase.BaseClass;
 
 public class WebTableTC004 extends BaseClass {
 
-	@Test
+	@Test(priority = 5)
 	public void webTableMethod() {
 		implicitlyWaitMethod(5);
 		WebTable wb = new WebTable(driver);

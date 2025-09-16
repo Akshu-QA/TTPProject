@@ -7,7 +7,7 @@ import testBase.BaseClass;
 
 public class LinksTC006 extends BaseClass {
 
-	@Test
+	@Test(priority = 7)
 	public void links() {
 		Links l = new Links(driver);
 		l.linksMethod();
