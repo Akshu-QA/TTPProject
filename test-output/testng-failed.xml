@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.RadioBtnTC003">
+      <class name="testCases.WebTableTC004">
         <methods>
           <include name="teardown"/>
+          <include name="webTableMethod"/>
           <include name="setup"/>
-          <include name="impressiveMethod"/>
         </methods>
-      </class> <!-- testCases.RadioBtnTC003 -->
+      </class> <!-- testCases.WebTableTC004 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

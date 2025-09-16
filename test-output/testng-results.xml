@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-15T16:14:44 IST" name="Default suite" finished-at="2025-09-15T16:14:51 IST" duration-ms="6728">
+  <suite started-at="2025-09-16T16:09:34 IST" name="Default suite" finished-at="2025-09-16T16:09:41 IST" duration-ms="6474">
     <groups>
     </groups>
-    <test started-at="2025-09-15T16:14:44 IST" name="Default test" finished-at="2025-09-15T16:14:51 IST" duration-ms="6728">
-      <class name="testCases.RadioBtnTC003">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.RadioBtnTC003@14d14731]" started-at="2025-09-15T16:14:44 IST" name="setup" finished-at="2025-09-15T16:14:47 IST" duration-ms="2855" status="PASS">
+    <test started-at="2025-09-16T16:09:34 IST" name="Default test" finished-at="2025-09-16T16:09:41 IST" duration-ms="6474">
+      <class name="testCases.WebTableTC004">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.WebTableTC004@42f33b5d]" started-at="2025-09-16T16:09:34 IST" name="setup" finished-at="2025-09-16T16:09:37 IST" duration-ms="3013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="aradioBtnMethod()[pri:0, instance:testCases.RadioBtnTC003@14d14731]" started-at="2025-09-15T16:14:47 IST" name="aradioBtnMethod" finished-at="2025-09-15T16:14:49 IST" duration-ms="1475" status="PASS">
+        <test-method signature="webTableMethod()[pri:0, instance:testCases.WebTableTC004@42f33b5d]" started-at="2025-09-16T16:09:38 IST" name="webTableMethod" finished-at="2025-09-16T16:09:41 IST" duration-ms="3414" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aradioBtnMethod -->
-        <test-method signature="impressiveMethod()[pri:0, instance:testCases.RadioBtnTC003@14d14731]" started-at="2025-09-15T16:14:49 IST" name="impressiveMethod" finished-at="2025-09-15T16:14:51 IST" duration-ms="2137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- impressiveMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RadioBtnTC003@14d14731]" started-at="2025-09-15T16:14:51 IST" name="teardown" finished-at="2025-09-15T16:14:51 IST" duration-ms="207" status="PASS">
+        </test-method> <!-- webTableMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.WebTableTC004@42f33b5d]" started-at="2025-09-16T16:09:41 IST" name="teardown" finished-at="2025-09-16T16:09:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.RadioBtnTC003 -->
+      </class> <!-- testCases.WebTableTC004 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

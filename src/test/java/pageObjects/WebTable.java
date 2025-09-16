@@ -37,6 +37,21 @@ public class WebTable extends BasePage {
 	@FindBy(css = "input[value='Login']")
 	WebElement loginBtn;
 
+	@FindBy(xpath = "//tbody//tr[1]//a[@class='edit-wrap']")
+	WebElement row1Edit;
+
+	@FindBy(xpath = "//input[@value='Submit']")
+	public WebElement editSubmitBtn;
+
+	@FindBy(xpath = "//tbody//tr[1]//td[7]//a[2]")
+	WebElement deleteBtn;
+
+	@FindBy(xpath = "//input[@placeholder='Type to Search']")
+	WebElement searchField;
+
+	@FindBy(css = ".btn.btn-outline-secondary")
+	WebElement searchBtn;
+
 	public void clickWebtable() {
 		webTable.click();
 	}
@@ -56,6 +71,26 @@ public class WebTable extends BasePage {
 
 	public void clickLoginBtn() {
 		loginBtn.click();
+	}
+
+	public void row1EditClick() {
+		row1Edit.click();
+	}
+
+	public void editSubmitBtnClick() {
+		editSubmitBtn.click();
+	}
+
+	public void deleteBtnClick() {
+		deleteBtn.click();
+	}
+
+	public void searchFieldInput(String input) {
+		searchField.sendKeys(input);
+	}
+
+	public void searchBtnClick() {
+		searchBtn.click();
 	}
 
 }

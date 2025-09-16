@@ -45,7 +45,7 @@ public class BaseClass {
 
 	@AfterClass
 	public void teardown() {
-		driver.quit();
+		//driver.quit();
 	}
 
 	public String captureScreen(String tname) {
@@ -67,10 +67,11 @@ public class BaseClass {
 	public void implicitlyWaitMethod(int t) {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(t));
 	}
-	
-	public void explicitWaitMethod(WebElement element,int t) {
+
+	public void explicitWaitMethod(WebElement element, int t) {
 		WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(t));
 		w.until(ExpectedConditions.elementToBeClickable(element));
+
 	}
 
 }
