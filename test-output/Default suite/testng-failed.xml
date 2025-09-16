@@ -3,13 +3,23 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="testCases.WebTableTC004">
+=======
+      <class name="testCases.ButtonTC005">
+>>>>>>> 666420177f68e3d4cb6083008614c744007de6e0
         <methods>
           <include name="teardown"/>
           <include name="webTableMethod"/>
           <include name="setup"/>
+<<<<<<< HEAD
         </methods>
       </class> <!-- testCases.WebTableTC004 -->
+=======
+          <include name="rightClickBtnMethod"/>
+        </methods>
+      </class> <!-- testCases.ButtonTC005 -->
+>>>>>>> 666420177f68e3d4cb6083008614c744007de6e0
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

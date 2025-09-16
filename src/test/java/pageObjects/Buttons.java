@@ -7,6 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class Buttons extends BasePage {
+	String rightClick;
 
 	public Buttons(WebDriver driver) {
 		super(driver);
@@ -54,6 +55,7 @@ public class Buttons extends BasePage {
 
 	public String getDoubleClickMeTextMethod() {
 		return doubleClickMeTextLoc.getText();
+
 	}
 
 }

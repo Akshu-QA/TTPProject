@@ -1,5 +1,6 @@
 package testCases;
 
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -18,6 +19,7 @@ import testBase.BaseClass;
 public class ButtonTC005 extends BaseClass {
 
 	@Test
+
 	public void buttonsClick() {
 		implicitlyWaitMethod(5);
 		Buttons cb = new Buttons(driver);
@@ -40,5 +42,6 @@ public class ButtonTC005 extends BaseClass {
 		ac.contextClick(cb.doubleClickMeTextLoc).build().perform();
 		ac.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build()
 				.perform();
+
 	}
 }
