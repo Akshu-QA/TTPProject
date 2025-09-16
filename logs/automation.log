@@ -1846,3 +1846,9 @@
 2025-09-16 15:34:35 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@15dd5ac2: 7 ms
 2025-09-16 15:34:35 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4d48bd85: 0 ms
 >>>>>>> 666420177f68e3d4cb6083008614c744007de6e0
+2025-09-16 16:31:20 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Ankit\eclipse-workspace\InterviewQuestions\TTPAutomation\TTPProject\testng.xml
+
+2025-09-16 16:40:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\Ankit\eclipse-workspace\InterviewQuestions\TTPAutomation\TTPProject\testng.xml
+
