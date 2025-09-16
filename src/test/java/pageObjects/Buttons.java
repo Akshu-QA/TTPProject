@@ -2,9 +2,11 @@ package pageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
 public class Buttons extends BasePage {
+	String rightClick;
 
 	public Buttons(WebDriver driver) {
 		super(driver);
@@ -16,12 +18,20 @@ public class Buttons extends BasePage {
 	@FindBy(css=".btn.btn-primary")
 	WebElement clickMeBtn;
 	
-	@FindBy(css=".btn.btn-secondary")
+	@FindBy(xpath="//button[@class='btn btn-secondary']")
 	WebElement rightClickMeBtn;
 	
-	public void btnClickMethod() {
+	@FindBy(xpath="//div[@id='welcomeDiv']")
+	public WebElement clickMeText;
+	
+	public void btnClick() {
 		buttons.click();
-		clickMeBtn.click();
 	}	
+	
+	public String rightClickBtn() {
+		Actions ac = new Actions(driver);		
+		ac.contextClick(rightClickMeBtn).perform();
+		return rightClick;
+	}
 
 }
