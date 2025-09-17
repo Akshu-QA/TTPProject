@@ -27,7 +27,7 @@ public class Links extends BasePage {
 		for (WebElement ref : ls) {
 			System.out.println(ref.getText());
 			String linkText = ref.getText().trim();
-			System.out.println("list of links:" + linkText);
+			//System.out.println("list of links:" + linkText);
 			if (linkText.equalsIgnoreCase("Moved")) {
 				ref.click();
 			}
