@@ -10,6 +10,7 @@ public class BrokenLinksTC007 extends BaseClass {
 	@Test(priority = 8)
 	public void brokenLinksMethod() {
 		BrokenLinks bl = new BrokenLinks(driver);
-		bl.brokenLinkMethod();
+		bl.brokenLinkClick();
+		bl.linkClick();
 	}
 }
