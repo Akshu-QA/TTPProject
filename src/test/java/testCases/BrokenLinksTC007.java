@@ -12,7 +12,8 @@ public class BrokenLinksTC007 extends BaseClass {
 		BrokenLinks bl = new BrokenLinks(driver);
 		bl.brokenLinkClick();
 		bl.linkClick();
-		bl.goBackLinkClick();
+		bl.goBackLinkClickMethod();
 		System.out.println("hello test");
+
 	}
 }

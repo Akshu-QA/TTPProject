@@ -27,7 +27,7 @@ public class BrokenLinks extends BasePage {
 		brokenLinks1.click();
 	}
 
-	public void goBackLinkClick() {
+	public void goBackLinkClickMethod() {
 		goBackLink.click();
 	}
 
