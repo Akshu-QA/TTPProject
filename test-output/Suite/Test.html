@@ -55,17 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
 </tr><tr>
-<<<<<<< HEAD
-<td>Started on:</td><td>Wed Sep 17 12:08:38 IST 2025</td>
+<td>Started on:</td><td>Thu Sep 18 14:18:20 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>32 seconds (32137 ms)</td>
-=======
-<td>Started on:</td><td>Tue Sep 16 17:19:52 IST 2025</td>
-</tr>
-<tr><td>Total time:</td><td>25 seconds (25665 ms)</td>
->>>>>>> b806553efd8395a4f3948d849e9b7424e3bd9b15
+<tr><td>Total time:</td><td>34 seconds (34056 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -73,6 +67,101 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.BrokenLinksTC007.brokenLinksMethod()'><b>brokenLinksMethod</b><br>Test class: testCases.BrokenLinksTC007</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;broken link&quot;}
+  (Session info: chrome=140.0.7339.186)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04fb31ecd291b62b339aa7550598614c, findElement {using=link text, value=broken link}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.186, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\Ankit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50188/devtoo..., se:cdpVersion: 140.0.7339.186, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04fb31ecd291b62b339aa7550598614c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.BrokenLinks.goBackLinkClickMethod(BrokenLinks.java:31)
+	at testCases.BrokenLinksTC007.brokenLinksMethod(BrokenLinksTC007.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1193710204", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1193710204'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;broken link&quot;}
+  (Session info: chrome=140.0.7339.186)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04fb31ecd291b62b339aa7550598614c, findElement {using=link text, value=broken link}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.186, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\Ankit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50188/devtoo..., se:cdpVersion: 140.0.7339.186, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04fb31ecd291b62b339aa7550598614c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at pageObjects.BrokenLinks.goBackLinkClickMethod(BrokenLinks.java:31)
+	at testCases.BrokenLinksTC007.brokenLinksMethod(BrokenLinksTC007.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>testCases.BrokenLinksTC007@74a6a609</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -82,77 +171,55 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<<<<<<< HEAD
-<td title='testCases.RadioBtnTC003.aradioBtnMethod()'><b>aradioBtnMethod</b><br>Test class: testCases.RadioBtnTC003</td>
-<td></td>
-<td>0</td>
-<td>testCases.RadioBtnTC003@1a45193b</td></tr>
-<tr>
-<td title='testCases.BrokenLinksTC007.brokenLinksMethod()'><b>brokenLinksMethod</b><br>Test class: testCases.BrokenLinksTC007</td>
-<td></td>
-<td>0</td>
-<td>testCases.BrokenLinksTC007@5553d0f5</td></tr>
-=======
 <td title='testCases.ButtonTC005.buttonsClick()'><b>buttonsClick</b><br>Test class: testCases.ButtonTC005</td>
 <td></td>
 <td>1</td>
-<td>testCases.ButtonTC005@424fd310</td></tr>
+<td>testCases.ButtonTC005@5c530d1e</td></tr>
 <tr>
-<td title='testCases.RadioBtnTC003.impressiveMethod()'><b>impressiveMethod</b><br>Test class: testCases.RadioBtnTC003</td>
-<td></td>
-<td>2</td>
-<td>testCases.RadioBtnTC003@1a45193b</td></tr>
-<tr>
-<td title='testCases.BrokenLinksTC007.brokenLinksMethod()'><b>brokenLinksMethod</b><br>Test class: testCases.BrokenLinksTC007</td>
+<td title='testCases.BrowserWindowsTC0010.NewWinMsgMethod()'><b>NewWinMsgMethod</b><br>Test class: testCases.BrowserWindowsTC0010</td>
 <td></td>
 <td>0</td>
-<td>testCases.BrokenLinksTC007@5553d0f5</td></tr>
-<tr>
-<td title='testCases.LinksTC006.links()'><b>links</b><br>Test class: testCases.LinksTC006</td>
-<td></td>
-<td>0</td>
-<td>testCases.LinksTC006@2374d36a</td></tr>
-<tr>
-<td title='testCases.WebTableTC004.webTableMethod()'><b>webTableMethod</b><br>Test class: testCases.WebTableTC004</td>
-<td></td>
-<td>3</td>
-<td>testCases.WebTableTC004@47a5b70d</td></tr>
-<tr>
-<td title='testCases.RadioBtnTC003.aradioBtnMethod()'><b>aradioBtnMethod</b><br>Test class: testCases.RadioBtnTC003</td>
-<td></td>
-<td>1</td>
-<td>testCases.RadioBtnTC003@1a45193b</td></tr>
->>>>>>> b806553efd8395a4f3948d849e9b7424e3bd9b15
-<tr>
-<td title='testCases.TextBoxTC001.textBoxMethod()'><b>textBoxMethod</b><br>Test class: testCases.TextBoxTC001</td>
-<td></td>
-<td>0</td>
-<td>testCases.TextBoxTC001@54d18072</td></tr>
+<td>testCases.BrowserWindowsTC0010@1a45193b</td></tr>
 <tr>
 <td title='testCases.CheckBoxTC002.checkBoxMethod()'><b>checkBoxMethod</b><br>Test class: testCases.CheckBoxTC002</td>
 <td></td>
 <td>0</td>
-<td>testCases.CheckBoxTC002@1506f20f</td></tr>
-<tr>
-<td title='testCases.ButtonTC005.buttonsClick()'><b>buttonsClick</b><br>Test class: testCases.ButtonTC005</td>
-<td></td>
-<td>1</td>
-<td>testCases.ButtonTC005@424fd310</td></tr>
+<td>testCases.CheckBoxTC002@5286c33a</td></tr>
 <tr>
 <td title='testCases.RadioBtnTC003.impressiveMethod()'><b>impressiveMethod</b><br>Test class: testCases.RadioBtnTC003</td>
 <td></td>
 <td>2</td>
-<td>testCases.RadioBtnTC003@1a45193b</td></tr>
-<tr>
-<td title='testCases.LinksTC006.links()'><b>links</b><br>Test class: testCases.LinksTC006</td>
-<td></td>
-<td>1</td>
-<td>testCases.LinksTC006@2374d36a</td></tr>
+<td>testCases.RadioBtnTC003@6c25e6c4</td></tr>
 <tr>
 <td title='testCases.WebTableTC004.webTableMethod()'><b>webTableMethod</b><br>Test class: testCases.WebTableTC004</td>
 <td></td>
-<td>3</td>
-<td>testCases.WebTableTC004@47a5b70d</td></tr>
+<td>4</td>
+<td>testCases.WebTableTC004@6e6d5d29</td></tr>
+<tr>
+<td title='testCases.BrowserWindowsTC0010.newTabMethod()'><b>newTabMethod</b><br>Test class: testCases.BrowserWindowsTC0010</td>
+<td></td>
+<td>1</td>
+<td>testCases.BrowserWindowsTC0010@1a45193b</td></tr>
+<tr>
+<td title='testCases.LinksTC006.links()'><b>links</b><br>Test class: testCases.LinksTC006</td>
+<td></td>
+<td>0</td>
+<td>testCases.LinksTC006@424fd310</td></tr>
+<tr>
+<td title='testCases.RadioBtnTC003.aradioBtnMethod()'><b>aradioBtnMethod</b><br>Test class: testCases.RadioBtnTC003</td>
+<td></td>
+<td>0</td>
+<td>testCases.RadioBtnTC003@6c25e6c4</td></tr>
+<tr>
+<td title='testCases.TextBoxTC001.textBoxMethod()'><b>textBoxMethod</b><br>Test class: testCases.TextBoxTC001</td>
+<td></td>
+<td>0</td>
+<td>testCases.TextBoxTC001@38f116f6</td></tr>
+<tr>
+<td title='testCases.BrowserWindowsTC0010.newWinMethod()'><b>newWinMethod</b><br>Test class: testCases.BrowserWindowsTC0010</td>
+<td></td>
+<td>0</td>
+<td>testCases.BrowserWindowsTC0010@1a45193b</td></tr>
 </table><p>
 </body>
 </html>

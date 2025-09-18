@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.CheckBoxTC002">
+      <class name="testCases.BrokenLinksTC007">
         <methods>
           <include name="teardown"/>
-          <include name="checkBoxMethod"/>
           <include name="setup"/>
+          <include name="brokenLinksMethod"/>
         </methods>
-      </class> <!-- testCases.CheckBoxTC002 -->
+      </class> <!-- testCases.BrokenLinksTC007 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

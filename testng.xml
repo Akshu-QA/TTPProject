@@ -5,10 +5,10 @@
 		<listener class-name="utilities.ExtentReportManager" />
 </listeners>
   <test thread-count="5" name="Test">
-  
     <classes>
       <class name="testCases.BrokenLinksTC007"/>
       <class name="testCases.LinksTC006"/>
+      <class name="testCases.BrowserWindowsTC0010"/>
       <class name="testCases.TextBoxTC001"/>
       <class name="testCases.CheckBoxTC002"/>
       <class name="testCases.WebTableTC004"/>
