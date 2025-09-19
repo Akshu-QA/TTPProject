@@ -1,48 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2025-09-17T16:11:43 IST" name="Default suite" finished-at="2025-09-17T16:11:53 IST" duration-ms="10847">
+  <suite started-at="2025-09-19T12:28:21 IST" name="Suite" finished-at="2025-09-19T12:29:00 IST" duration-ms="39559">
     <groups>
     </groups>
-    <test started-at="2025-09-17T16:11:43 IST" name="Default test" finished-at="2025-09-17T16:11:53 IST" duration-ms="10847">
-      <class name="testCases.DynamicPropertiesTC008">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.DynamicPropertiesTC008@42f33b5d]" started-at="2025-09-17T16:11:43 IST" name="setup" finished-at="2025-09-17T16:11:47 IST" duration-ms="4885" status="PASS">
+    <test started-at="2025-09-19T12:28:21 IST" name="Test" finished-at="2025-09-19T12:29:00 IST" duration-ms="39559">
+      <class name="testCases.CheckBoxTC002">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.CheckBoxTC002@5286c33a]" started-at="2025-09-19T12:28:41 IST" name="setup" finished-at="2025-09-19T12:28:43 IST" duration-ms="2180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dynamicPropertiesMethod()[pri:0, instance:testCases.DynamicPropertiesTC008@42f33b5d]" started-at="2025-09-17T16:11:47 IST" name="dynamicPropertiesMethod" finished-at="2025-09-17T16:11:53 IST" duration-ms="5908" status="PASS">
+        <test-method signature="checkBoxMethod()[pri:2, instance:testCases.CheckBoxTC002@5286c33a]" started-at="2025-09-19T12:28:43 IST" name="checkBoxMethod" finished-at="2025-09-19T12:28:44 IST" duration-ms="929" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dynamicPropertiesMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DynamicPropertiesTC008@42f33b5d]" started-at="2025-09-17T16:11:53 IST" name="teardown" finished-at="2025-09-17T16:11:53 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- checkBoxMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.CheckBoxTC002@5286c33a]" started-at="2025-09-19T12:28:44 IST" name="teardown" finished-at="2025-09-19T12:28:44 IST" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.DynamicPropertiesTC008 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
-=======
-  <suite started-at="2025-09-18T14:22:16 IST" name="Failed suite [Suite]" finished-at="2025-09-18T14:22:21 IST" duration-ms="4500">
-    <groups>
-    </groups>
-    <test started-at="2025-09-18T14:22:16 IST" name="Test(failed)" finished-at="2025-09-18T14:22:21 IST" duration-ms="4500">
-      <class name="testCases.BrokenLinksTC007">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.BrokenLinksTC007@2a79d4b1]" started-at="2025-09-18T14:22:16 IST" name="setup" finished-at="2025-09-18T14:22:19 IST" duration-ms="2734" status="PASS">
+      </class> <!-- testCases.CheckBoxTC002 -->
+      <class name="testCases.TextBoxTC001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TextBoxTC001@38f116f6]" started-at="2025-09-19T12:28:37 IST" name="setup" finished-at="2025-09-19T12:28:39 IST" duration-ms="2355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="brokenLinksMethod()[pri:8, instance:testCases.BrokenLinksTC007@2a79d4b1]" started-at="2025-09-18T14:22:19 IST" name="brokenLinksMethod" finished-at="2025-09-18T14:22:20 IST" duration-ms="1340" status="PASS">
+        <test-method signature="textBoxMethod()[pri:1, instance:testCases.TextBoxTC001@38f116f6]" started-at="2025-09-19T12:28:39 IST" name="textBoxMethod" finished-at="2025-09-19T12:28:40 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textBoxMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TextBoxTC001@38f116f6]" started-at="2025-09-19T12:28:40 IST" name="teardown" finished-at="2025-09-19T12:28:41 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TextBoxTC001 -->
+      <class name="testCases.LinksTC006">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LinksTC006@424fd310]" started-at="2025-09-19T12:28:28 IST" name="setup" finished-at="2025-09-19T12:28:30 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="links()[pri:7, instance:testCases.LinksTC006@424fd310]" started-at="2025-09-19T12:28:30 IST" name="links" finished-at="2025-09-19T12:28:32 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.LinksTC006@424fd310]" started-at="2025-09-19T12:28:32 IST" name="teardown" finished-at="2025-09-19T12:28:32 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.LinksTC006 -->
+      <class name="testCases.BrokenLinksTC007">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.BrokenLinksTC007@74a6a609]" started-at="2025-09-19T12:28:21 IST" name="setup" finished-at="2025-09-19T12:28:26 IST" duration-ms="4983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="brokenLinksMethod()[pri:8, instance:testCases.BrokenLinksTC007@74a6a609]" started-at="2025-09-19T12:28:26 IST" name="brokenLinksMethod" finished-at="2025-09-19T12:28:28 IST" duration-ms="1526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- brokenLinksMethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.BrokenLinksTC007@2a79d4b1]" started-at="2025-09-18T14:22:20 IST" name="teardown" finished-at="2025-09-18T14:22:21 IST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.BrokenLinksTC007@74a6a609]" started-at="2025-09-19T12:28:28 IST" name="teardown" finished-at="2025-09-19T12:28:28 IST" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.BrokenLinksTC007 -->
-    </test> <!-- Test(failed) -->
-  </suite> <!-- Failed suite [Suite] -->
->>>>>>> 8ffd67e3e732bb982375f0e1b1313f826267f329
+      <class name="testCases.WebTableTC004">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.WebTableTC004@6e6d5d29]" started-at="2025-09-19T12:28:44 IST" name="setup" finished-at="2025-09-19T12:28:46 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="webTableMethod()[pri:5, instance:testCases.WebTableTC004@6e6d5d29]" started-at="2025-09-19T12:28:46 IST" name="webTableMethod" finished-at="2025-09-19T12:28:50 IST" duration-ms="3778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTableMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.WebTableTC004@6e6d5d29]" started-at="2025-09-19T12:28:50 IST" name="teardown" finished-at="2025-09-19T12:28:50 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.WebTableTC004 -->
+      <class name="testCases.BrowserWindowsTC0010">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.BrowserWindowsTC0010@1a45193b]" started-at="2025-09-19T12:28:32 IST" name="setup" finished-at="2025-09-19T12:28:34 IST" duration-ms="2276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="newTabMethod()[pri:9, instance:testCases.BrowserWindowsTC0010@1a45193b]" started-at="2025-09-19T12:28:34 IST" name="newTabMethod" finished-at="2025-09-19T12:28:35 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTabMethod -->
+        <test-method signature="newWinMethod()[pri:10, instance:testCases.BrowserWindowsTC0010@1a45193b]" started-at="2025-09-19T12:28:35 IST" name="newWinMethod" finished-at="2025-09-19T12:28:36 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWinMethod -->
+        <test-method signature="NewWinMsgMethod()[pri:11, instance:testCases.BrowserWindowsTC0010@1a45193b]" started-at="2025-09-19T12:28:36 IST" name="NewWinMsgMethod" finished-at="2025-09-19T12:28:37 IST" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewWinMsgMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.BrowserWindowsTC0010@1a45193b]" started-at="2025-09-19T12:28:37 IST" name="teardown" finished-at="2025-09-19T12:28:37 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.BrowserWindowsTC0010 -->
+      <class name="testCases.ButtonTC005">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.ButtonTC005@5c530d1e]" started-at="2025-09-19T12:28:50 IST" name="setup" finished-at="2025-09-19T12:28:53 IST" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="buttonsClick()[pri:6, instance:testCases.ButtonTC005@5c530d1e]" started-at="2025-09-19T12:28:53 IST" name="buttonsClick" finished-at="2025-09-19T12:28:55 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonsClick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.ButtonTC005@5c530d1e]" started-at="2025-09-19T12:28:55 IST" name="teardown" finished-at="2025-09-19T12:28:55 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ButtonTC005 -->
+      <class name="testCases.RadioBtnTC003">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.RadioBtnTC003@6c25e6c4]" started-at="2025-09-19T12:28:55 IST" name="setup" finished-at="2025-09-19T12:28:57 IST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="aradioBtnMethod()[pri:3, instance:testCases.RadioBtnTC003@6c25e6c4]" started-at="2025-09-19T12:28:57 IST" name="aradioBtnMethod" finished-at="2025-09-19T12:28:58 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aradioBtnMethod -->
+        <test-method signature="impressiveMethod()[pri:4, instance:testCases.RadioBtnTC003@6c25e6c4]" started-at="2025-09-19T12:28:58 IST" name="impressiveMethod" finished-at="2025-09-19T12:29:00 IST" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- impressiveMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.RadioBtnTC003@6c25e6c4]" started-at="2025-09-19T12:29:00 IST" name="teardown" finished-at="2025-09-19T12:29:00 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.RadioBtnTC003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
