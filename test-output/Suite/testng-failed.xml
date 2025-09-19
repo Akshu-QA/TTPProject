@@ -6,13 +6,22 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.BrokenLinksTC007">
+      <class name="testCases.WebTableTC004">
         <methods>
           <include name="teardown"/>
+          <include name="webTableMethod"/>
           <include name="setup"/>
-          <include name="brokenLinksMethod"/>
         </methods>
-      </class> <!-- testCases.BrokenLinksTC007 -->
+      </class> <!-- testCases.WebTableTC004 -->
+      <class name="testCases.BrowserWindowsTC0010">
+        <methods>
+          <include name="teardown"/>
+          <include name="newTabMethod"/>
+          <include name="NewWinMsgMethod"/>
+          <include name="setup"/>
+          <include name="newWinMethod"/>
+        </methods>
+      </class> <!-- testCases.BrowserWindowsTC0010 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -63,7 +63,7 @@ public class WebTable extends BasePage {
 	public void enterRefFormDetail() {
 		fullName.sendKeys("akshu");
 		lastName.sendKeys("pawar");
-		email.sendKeys("abc@gmail.com");
+		email.sendKeys("TestAC@gmail.com");
 		age.sendKeys("12345");
 		salary.sendKeys("10000005465465465465156156454bsdhggascgfxcacsxgfc ");
 		deparment.sendKeys("QA");
