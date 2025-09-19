@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pageObjects.Widgets;
 import testBase.BaseClass;
 
-public class WidgetsTC10 extends BaseClass{
+public class WidgetsTC0011 extends BaseClass{
 	
 	@Test
 	public void widgetsMethod() {

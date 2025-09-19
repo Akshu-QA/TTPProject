@@ -16,7 +16,7 @@ public class BrokenLinks extends BasePage {
 	@FindBy(xpath = "//a[text()='Click Here for Broken Link']")
 	WebElement brokenLinks1;
 
-	@FindBy(linkText = "broken link")
+	@FindBy(xpath = "//a[@href='broken-links.php']")
 	WebElement goBackLink;
 
 	public void brokenLinkClick() {
