@@ -12,7 +12,7 @@ import testBase.BaseClass;
 
 public class DynamicPropertiesTC008 extends BaseClass {
 
-	@Test
+	@Test(priority = 13)
 	public void dynamicPropertiesMethod() {
 		DynamicProperties dp = new DynamicProperties(driver);
 		dp.clickDynamicProperties();

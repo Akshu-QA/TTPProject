@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.BrowserWindowsTC0010">
+      <class name="testCases.ProgressBarTC0016">
         <methods>
           <include name="teardown"/>
+          <include name="progressBarMathod"/>
           <include name="setup"/>
-          <include name="newWinMethod"/>
         </methods>
-      </class> <!-- testCases.BrowserWindowsTC0010 -->
+      </class> <!-- testCases.ProgressBarTC0016 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

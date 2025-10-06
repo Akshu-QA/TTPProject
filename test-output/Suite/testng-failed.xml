@@ -6,13 +6,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.WebTableTC004">
+      <class name="testCases.SelectMenuTC0019">
         <methods>
           <include name="teardown"/>
-          <include name="webTableMethod"/>
+          <include name="setup"/>
+          <include name="selectMenuMethod"/>
+        </methods>
+      </class> <!-- testCases.SelectMenuTC0019 -->
+      <class name="testCases.ProgressBarTC0016">
+        <methods>
+          <include name="teardown"/>
+          <include name="progressBarMathod"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.WebTableTC004 -->
+      </class> <!-- testCases.ProgressBarTC0016 -->
       <class name="testCases.BrowserWindowsTC0010">
         <methods>
           <include name="teardown"/>
@@ -22,6 +29,27 @@
           <include name="newWinMethod"/>
         </methods>
       </class> <!-- testCases.BrowserWindowsTC0010 -->
+      <class name="testCases.UploadandDownloadTC009">
+        <methods>
+          <include name="teardown"/>
+          <include name="selectFileMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.UploadandDownloadTC009 -->
+      <class name="testCases.ScollTopTC0020">
+        <methods>
+          <include name="teardown"/>
+          <include name="scollTopMethod"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.ScollTopTC0020 -->
+      <class name="testCases.SliderTC0015">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="sliderMethod"/>
+        </methods>
+      </class> <!-- testCases.SliderTC0015 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

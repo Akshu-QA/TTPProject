@@ -13,6 +13,5 @@ public class BrokenLinksTC007 extends BaseClass {
 		bl.brokenLinkClick();
 		bl.linkClick();
 		bl.goBackLinkClickMethod();
-		System.out.println("hello test");
 	}
 }

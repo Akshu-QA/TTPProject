@@ -8,13 +8,13 @@ import testBase.BaseClass;
 
 public class UploadandDownloadTC009 extends BaseClass {
 
-	@Test
+	@Test(priority = 14)
 	public void uploadDownloadMethod() {
 		UploadandDownload ud = new UploadandDownload(driver);
 		ud.uploadDowloadClick();
 	}
 
-	@Test
+	@Test(priority = 15)
 	public void selectFileMethod() {
 		UploadandDownload ud = new UploadandDownload(driver);
 		ud.chooseFile();

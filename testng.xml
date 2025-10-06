@@ -6,14 +6,29 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
+      <class name="testCases.MenuTC0018"/>
       <class name="testCases.BrokenLinksTC007"/>
-      <class name="testCases.LinksTC006"/>
-      <class name="testCases.BrowserWindowsTC0010"/>
-      <class name="testCases.TextBoxTC001"/>
-      <class name="testCases.CheckBoxTC002"/>
+      <class name="testCases.DynamicPropertiesTC008"/>
+      <class name="testCases.HorizontalScrollTC0022"/>
+      <class name="testCases.ScrollDownTC0021"/>
+      <class name="testCases.SelectMenuTC0019"/>
+      <class name="testCases.ScollTopTC0020"/>
       <class name="testCases.WebTableTC004"/>
+      <class name="testCases.ProgressBarTC0016"/>
+      <class name="testCases.UploadandDownloadTC009"/>
+      <class name="testCases.LinksTC006"/>
+      <class name="testCases.WidgetsTC0011"/>
+      <class name="testCases.SliderTC0015"/>
+      <class name="testCases.TextBoxTC001"/>
+      <class name="testCases.BrowserWindowsTC0010"/>
+      <class name="testCases.CheckBoxTC002"/>
+      <class name="testCases.InteractionTC0023"/>
+      <class name="testCases.TabsTC0017"/>
+      <class name="testCases.AutoCompleteTC0013"/>
       <class name="testCases.ButtonTC005"/>
+      <class name="testCases.Accordian0012"/>
       <class name="testCases.RadioBtnTC003"/>
+      <class name="testCases.DatePickerTC0014"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
